@@ -45,22 +45,22 @@ body {
   animation-delay: -1s;
 }
 #kawasakiH2 {
-  background-image: url(H2.webp);
+  background-image: url(IMG/H2.webp);
   background-size: cover;
   animation-delay: -2s;
 }
 #MT07 {
-  background-image: url(mt07.webp);
+  background-image: url(IMG/mt07.webp);
   background-size: cover;
   animation-delay: -3s;
 }
 #YamahaR6 {
-  background-image: url(R6.jpg);
+  background-image: url(IMG/R6.jpg);
   background-size: cover;
   animation-delay: -4s;
 }
 #SR1000RR {
-  background-image: url(S1000RR.avif);
+  background-image: url(IMG/S1000RR.avif);
   background-size: cover;
   animation-delay: -5s;
 }
@@ -72,3 +72,4 @@ body {
   background-color: white;
 
 }
+
