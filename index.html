@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Imagen Información</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main id="tarjeta">
+        <div class="receta-item">
+            <img src="img/onigiri.jpg" alt="pastel" id="img-pastel" onclick="mostrarReceta('info-pastel')">
+
+            <div id="info-pastel" class="info-receta">
+                <div class="receta-contenido">
+                    <div class="contenido-dividido">
+                        <div class="receta-texto">
+                            <h1>Onigiri</h1>
+                            <h3>Ingredientes principales:</h3>
+                            <ul>
+                                <li>Arroz japonés (arroz glutinoso o de grano corto): El arroz debe ser de buena calidad, ya que es la base del onigiri.</li>
+                                <li>Agua (para cocinar el arroz): La cantidad dependerá del tipo de arroz que uses. </li>
+                                <li>Sal: Para sazonar el arroz y también para mojarse las manos mientras se moldean los onigiris.</li>
+                                <li>Alga nori (opcional): Generalmente se usa para envolver el onigiri o para decorar.</li>
+                                <li></li>
+                            </ul>
+                            <h3>Procedimiento:</h3>
+                            <p>Para hacer un onigiri, primero cocina el arroz japonés siguiendo las indicaciones del paquete, asegurándote de enjuagarlo bien antes de cocinarlo para quitar el exceso de almidón. Una vez cocido, sazona el arroz con un poco de sal al gusto y deja que se enfríe ligeramente, pero sin que llegue a enfriarse por completo.
+
+                                Humedece tus manos con agua y una pizca de sal para evitar que el arroz se te pegue. Toma una porción de arroz y, con cuidado, forma una bola o un triángulo, presionando ligeramente para que el arroz tome forma sin aplastarlo demasiado. Si quieres añadir un relleno, coloca una pequeña cantidad en el centro del arroz antes de cerrarlo bien.
+                                
+                                Una vez formado el onigiri, puedes envolverlo con una tira de alga nori, dejando que el arroz quede cubierto en su parte inferior. Si prefieres no usar alga nori, simplemente disfruta del onigiri tal cual, o acompáñalo con una guarnición.</p>
+                        </div>
+                        <div class="receta-imagen">
+                            <img src="img/onigiri.jpg">
+                        </div>
+                    </div>
+
+                    <button class="boton-cerrar" onclick="cerrarReceta('info-pastel')">Cerrar Receta</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
